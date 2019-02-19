@@ -1,3 +1,5 @@
+pub mod knock00;
+
 #[cfg(test)]
 mod tests {
     #[test]
