@@ -18,6 +18,7 @@ mod test {
     #[test]
     fn test_extract_and_concat_chracters() {
         let input_string = String::from("パタトクカシーー");
+
         let result = extract_and_concat_chracters(&input_string);
 
         let exptected = String::from("パトカー");
